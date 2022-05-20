@@ -416,4 +416,6 @@ table {
     line-height: 18px;
     color: #fff;
     padding: 0 15px;
+    text-align: left;
+    word-break: normal;
 }

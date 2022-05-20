@@ -225,4 +225,8 @@
     .footer_header img{
         position: unset;
     }
+    .footer_content{
+        text-align: justify;
+        word-break: break-all;
+    }
 }
