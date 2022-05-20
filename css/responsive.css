@@ -164,6 +164,10 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .footer_area{
+        padding: 45px 0;
+    }
 }
 
 @media (max-width: 576px){
@@ -212,5 +216,13 @@
     .inner_insurance_benefit .benefit_column{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .footer_header{
+        text-align: center;
+    }
+
+    .footer_header img{
+        position: unset;
     }
 }

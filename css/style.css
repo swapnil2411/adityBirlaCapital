@@ -392,12 +392,13 @@ table {
 
 .footer_header{
     position: relative;
+    padding: 0 15px;
 }
 
 .footer_header img{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 14px;
 }
 
 .footer_header .footer_title{
@@ -410,4 +411,9 @@ table {
 
 .footer_content{
     margin-top: 25px;
+    font-family: 'PF Encore Sans Pro Regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 0 15px;
 }
