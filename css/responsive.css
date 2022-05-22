@@ -1,4 +1,206 @@
+@media (min-width: 1700px){
+    .inner_hero_area .hero_content .para{
+        font-size: 68px;
+        line-height: 68px;
+        color: #fff;
+        padding-right: 70px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_content_header {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_list {
+        font-size: 28px;
+        padding-left: 28px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_list li{
+        margin-bottom: 20px;
+    }
+
+    .sec_header .title {
+        font-size: 38px;
+        line-height: 44px;
+    }
+
+    .inner_insurance_benefit .benefit_column .benefit_content .benefit_title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .inner_insurance_benefit .benefit_column .benefit_content .benefit_para {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .column_not_covered{
+        padding: 30px 25px;
+    }
+
+    .content_not_covered .heading{
+        font-size: 36px;
+        line-height: 36px;
+        color: #c7222a;
+        margin-bottom: 18px;
+    }
+    
+    .content_not_covered .para{
+        font-family: 'PF Encore Sans Pro Regular';
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .heading {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .renew_column .renew_para {
+        font-size: 28px;
+    }
+
+    .insurance_claim_area .section_para p {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .claim_column .claim_process_content h3 {
+        font-size: 28px;
+        line-height: 31px;
+        font-family: 'PF Handbook Pro Bold';
+    }
+    
+}
+
+@media (min-width: 1480px) and (max-width: 1680px){
+    .inner_hero_area .hero_content .para{
+        font-size: 58px;
+        line-height: 58px;
+        color: #fff;
+        padding-right: 55px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_content_header {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_list{
+        font-size: 22px;
+    }
+
+    .sec_header .title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .inner_insurance_benefit .benefit_column .benefit_content .benefit_title{
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .inner_insurance_benefit .benefit_column .benefit_content .benefit_para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .content_not_covered .heading{
+        font-size: 32px;
+        line-height: 32px;
+        color: #c7222a;
+        margin-bottom: 18px;
+    }
+    
+    .content_not_covered .para{
+        font-family: 'PF Encore Sans Pro Regular';
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .heading {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .renew_column .renew_para {
+        font-size: 24px;
+    }
+
+    .insurance_claim_area .section_para p {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .claim_column .claim_process_content h3 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+}
+
+
+
+@media (min-width: 1366px){
+    .inner_hero_area .hero_banner_img .main_banner_img img,
+    .inner_info_recharge .info_recharge_img img{
+        max-width: unset;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1366px){
+    .inner_info_recharge .info_recharge_content .recharge_content_header span{
+        display: inline;
+    }
+}
+
+
+
+@media (max-width: 1200px){
+    .inner_hero_area .hero_content .para {
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    .inner_hero_area .hero_content .sub_para {
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_content_header {
+        font-size: 28px;
+        line-height: 32px;
+        padding-right: 80px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_list {
+        font-size: 18px;
+        padding-left: 18px;
+    }
+
+    .insurance_claim_area .section_para {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .claim_flex_area .claim_column {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
 @media (max-width: 991px){
+    header{
+        padding: 0px;
+    }
+
+    section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .main_header .logo_container {
         padding-right: 73px;
     }
@@ -32,11 +234,16 @@
     }
 
     .inner_info_recharge .info_recharge_content .recharge_content_header{
-        padding-right: 20px;
+        padding-right: 40px;
         word-wrap: break-word;
         text-align: justify;
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .inner_info_recharge .info_recharge_content .recharge_list {
+        font-size: 16px;
+        padding-left: 16px;
     }
 
     .inner_insurance_benefit .benefit_column{
@@ -45,6 +252,50 @@
 
     .inner_insurance_benefit .benefit_column .benefit_content .benefit_title{
         font-size: 24px;
+    }
+
+    .insurance_exclude_area{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .column_not_covered{
+        flex-direction: column;
+    }
+
+    .content_not_covered{
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    .inner_renew_recharge{
+        flex-wrap: wrap;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area, .inner_renew_recharge .renew_recharge_right_area{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area{
+        padding: 40px 15px;
+    }
+
+    .insurance_claim_area{
+        padding: 40px 15px;
+    }
+
+    .insurance_claim_area .section_para{
+        width: 100%;
+    }
+
+    .insurance_claim_area .section_para p{
+        font-size: 16px;
+    }
+
+    .claim_column .claim_process_content h3 {
+        font-size: 18px;
+        line-height: 22px;
     }
 }
 
@@ -105,12 +356,12 @@
     }
 
     .header_title .page_title{
-        padding: 10px 20px;
+        padding: 10px 20px 10px 85px;
         font-size: 20px;
     }
 
     .header_title .page_sub_title{
-        padding: 6px 20px;
+        padding: 6px 20px 6px 85px;
         font-size: 14px;
     }
 
@@ -136,10 +387,10 @@
         padding: 30px 0 70px;
     }
 
-    .top_sticky_img img{
+    /* .top_sticky_img img{
         max-width: unset !important;
         width: 250px;
-    }
+    } */
 
     .inner_info_recharge{
         flex-direction: column;
@@ -156,11 +407,34 @@
         margin-top: 35px;
     }
 
+    .inner_info_recharge .info_recharge_content .recharge_content_header{
+        padding-right: 0;
+    }
+
     .inner_insurance_benefit{
         flex-wrap: wrap;
     }
 
     .inner_insurance_benefit .benefit_column{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .column_not_covered{
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .renew_column .renew_para {
+        font-size: 18px;
+    }
+
+    .claim_flex_area .claim_column {
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -173,7 +447,7 @@
 @media (max-width: 576px){
 
     .insurance_benefit_area{
-        padding: 40px 0;
+        padding: 40px 15px;
     }
 
     .benefit_know_more{
@@ -182,11 +456,7 @@
 
     .sec_header .title{
         font-size: 28px;
-        line-height: 38px;
-        color: #000;
-        font-family: 'PF Handbook Pro Bold';
-        text-align: center;
-        margin-bottom: 25px;
+        line-height: 32px;
     }
 
     .inner_hero_area .hero_content .para{
@@ -205,17 +475,52 @@
     }
 
     .inner_info_recharge .info_recharge_content .recharge_content_header{
-        padding-right: 20px;
-        word-wrap: break-word;
-        word-break: break-all;
         text-align: left;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 25px;
     }
 
     .inner_insurance_benefit .benefit_column{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .column_not_covered{
+        flex: 0 0 95%;
+        max-width: 95%;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* .inner_renew_recharge .renew_recharge_left_area .recharge_left_content .renew_column .renew_para {
+        font-size: 16px;
+    } */
+
+    .inner_renew_recharge .renew_recharge_left_area .renew_flex_content{
+        flex-wrap: wrap;
+    }
+
+
+    .inner_renew_recharge .renew_recharge_left_area .renew_flex_content .renew_column{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .inner_renew_recharge .renew_recharge_left_area .renew_flex_content .renew_column:nth-child(1){
+        margin-bottom: 20px;
+    }
+
+    .inner_renew_recharge .renew_recharge_right_area{
+        height: 300px;
+    }
+
+    .claim_flex_area .claim_column {
+        flex: 0 0 95%;
+        max-width: 95%;
     }
 
     .footer_header{
@@ -227,6 +532,14 @@
     }
     .footer_content{
         text-align: justify;
+        word-break: break-all;
+    }
+}
+
+
+@media (max-width: 360px){
+    .insurance_claim_area .section_para p{
+        text-align: left;
         word-break: break-all;
     }
 }
