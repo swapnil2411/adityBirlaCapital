@@ -274,7 +274,34 @@ header{
     left: 50%;
     top: -29px;
     transform: translateX(-50%);
+    box-shadow: 0 0 0 0 rgb(237, 177, 35, 0.7);
+    border-radius: 10px;
+    -webkit-animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
 }
+
+@-webkit-keyframes pulse {
+    to {
+      box-shadow: 0 0 0 25px rgb(237, 177, 35, 0);
+    }
+  }
+  @-moz-keyframes pulse {
+    to {
+      box-shadow: 0 0 0 25px rgb(237, 177, 35, 0);
+    }
+  }
+  @-ms-keyframes pulse {
+    to {
+      box-shadow: 0 0 0 25px rgb(237, 177, 35, 0);
+    }
+  }
+  @keyframes pulse {
+    to {
+      box-shadow: 0 0 0 25px rgb(237, 177, 35, 0);
+    }
+  }
 
 .inner_hero_area .hero_banner_img .top_sticky_img a{
     display: block;
@@ -633,3 +660,82 @@ header{
     text-align: left;
     word-break: normal;
 }
+
+
+.hospicare_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 282px;
+    font-size: 18px;
+    color: #000;
+    font-family: 'PF Handbook Pro Regular';
+    background: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 13px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.black_shadow{
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 9px;
+    display: block;
+    transform: skewX(30deg);
+    z-index: -1;
+}
+
+/* .hospicare_button::after{
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 9px;
+    display: block;
+    transform: skewX(30deg);
+    z-index: -1;
+} */
+
+.hospicare_button:hover{
+    text-decoration: none;
+    color: #faa619;
+}
+
+.hospicare_button:hover svg{
+    color: #faa619;
+}
+
+.hospicare_button svg{
+    font-size: 30px;
+    color: #881726;
+    fill: #881726;
+}
+
+.hospicare_button svg:nth-child(1) {
+    margin-right: 10px;
+}
+
+.hospicare_button svg:nth-child(3) {
+    font-size: 16px;
+    margin-left: 8px;
+    animation: slide2 3s ease-in-out infinite;
+}
+
+@keyframes slide2 {
+    0%,
+    100% {
+      transform: translate(0, -10px);
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  }
