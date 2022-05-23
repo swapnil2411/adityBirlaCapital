@@ -441,6 +441,7 @@ header{
     line-height: 40px;
     font-family: 'PF Handbook Pro Bold';
     border-bottom: 2px solid #c7212b;
+    pointer-events: none;
 }
 
 /* Insurance not covered */
