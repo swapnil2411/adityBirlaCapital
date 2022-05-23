@@ -59,9 +59,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 body {
 	line-height: 1;
     font-family: 'PF Handbook Pro Regular';
+    scroll-behavior: smooth;
 }
 ol, ul, li {
 	list-style: none;
@@ -144,6 +149,7 @@ header{
     padding: 15px 45px;
     background: #c7222a;
     position: relative;
+    z-index: 101;
 }
 
 .main_header .logo_container{
@@ -164,6 +170,7 @@ header{
     font-size: 16px;
     display: inline-block;
     padding-bottom: 8px;
+    pointer-events: none;
 }
 
 
@@ -185,6 +192,10 @@ header{
     color: #fff;
 }
 
+.header_title{
+    position: relative;
+    z-index: 99;
+}
 
 .header_title .page_title{
     background: #da9089;
@@ -213,7 +224,7 @@ header{
     position: relative;
     margin-top: -168px;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .inner_hero_area{
@@ -318,7 +329,7 @@ header{
     font-size: 32px;
     font-family: 'PF Handbook Pro Bold';
     line-height: 40px;
-    padding-right: 102px;
+    padding-right: 93px;
     margin-bottom: 35px;
 }
 
@@ -369,8 +380,8 @@ header{
 
 .inner_insurance_benefit .benefit_column:hover{
     background: #fff;
-    box-shadow: 2px 2px 30px rgba(226, 226, 226, 0.4),
-                -2px -2px 30px rgba(226, 226, 226, 0.4);
+    box-shadow: 2px 2px 30px #e2e2e299,
+                -2px -2px 30px #e2e2e299;
 }
 
 .inner_insurance_benefit .benefit_column .benefit_content{
